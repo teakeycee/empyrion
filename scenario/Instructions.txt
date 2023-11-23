@@ -1,0 +1,32 @@
+This scenario is intended as a framework for config modders to easily share and update their custom configs on the workshop or elsewhere.
+You can also use this for your own personal use to edit custom configs without them being in danger of getting overwritten by a game update.
+
+This scenario generates a default survival game, with all the default planets, missions, and galaxy, but loaded with your custom config files.
+You can use either a custom config.ecf, and/or the new config files included with Alpha 12.
+All a player has to do is subscribe to your scenario on the workshop and then start a new game using your scenario.
+
+
+Initial setup:
+
+1: Copy the folder called "2122687972" from your Empyrion Workshop folder (default location SteamLibrary/steamapps/workshop/content/383120)
+2: Place this entire folder into the main Empyrion - Galactic Survival/Content/Scenarios folder and give it a custom name.
+3: Give it a custom description in description.txt
+4: Give it a custom preview.jpg
+5: Then complete the steps below to finish your initial setup or anytime you need to update your scenario on the workshop:
+
+
+Process for updating your scenario (you'll want to do this whenever the game changes the gameoptions or solarsystemconfig files or you update your custom configs):
+
+1: Copy your custom .ecf config files into the Content/Configuration folder of this scenario. You only need to copy files you actually changed, missing files will pull from default.
+2: Copy all the SolarSystemConfig.yaml files from the Empyrion - Galactic Survival/Content/RandomPresets folder into the RandomPresets folder of this scenario.
+3: Copy the gameoptions.yaml and gameoptions_example.yaml files from Empyrion - Galactic Survival/Content/Scenarios/Default Random and put them in the main folder of this scenario.
+4: If sharing on the workshop, start Empyrion, select New Game > Single Player > Scenario, select your custom scenario and press the "update" button to update it.
+
+The only folders in your scenario that should have any files in them are the main folder, the RandomPresets folder, and the Content/Configuration folder. All other folders (PDA, prefabs, and playfields) should stay empty of any files.
+Remember to update your scenario anytime the solarsystemconfig or gameoptions files change.
+
+
+Note: it is your responsibility to keep the gameoptions and solarsystemconfig files up to date, as well as whatever custom config files you are using.
+Using custom config files can break save games and ship blueprints. Always remember to reproduce any game bugs in a default, un-modded survival game before reporting any bugs to the developers.
+
+Please leave a comment on the Workshop if you have any questions!

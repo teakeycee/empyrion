@@ -1,0 +1,4 @@
+This scenario is a framework for modders to easily share their custom configs in a scenario on the workshop or for their own personal use.
+If you are using this for sharing custom configs, set this description to whatever you want in description.txt in your main scenario folder.
+
+Check out the instructions on the workshop or in the various instructions files.

@@ -1,0 +1,3 @@
+Here you can place playfields. The game will use playfields from this folder first, and then use them from the default folder if they don't exist here.
+You can for example modify the TemperateStarter playfield and place it in here, while leaving all the other planets as default.
+Or you can create a new playfield and add it to your scenario.
